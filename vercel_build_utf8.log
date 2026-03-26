@@ -1,0 +1,87 @@
+﻿node.exe : WARN! Build not 
+running on Vercel. System 
+environment variables will 
+not be available.
+At C:\Program 
+Files\nodejs\npx.ps1:29 
+char:3
++   & $NODE_EXE $NPX_CLI_JS 
+$args
++   
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo           
+   : NotSpecified: (WARN! B  
+  uild not...t be availabl   
+ e.:String) [], RemoteExc    
+eption
+    + FullyQualifiedErrorId  
+   : NativeCommandError
+ 
+WARNING: You should not 
+upload the `.next` directory.
+Installing dependencies...
+
+up to date in 2s
+
+163 packages are looking for funding
+  run `npm fund` for details
+Detected Next.js version: 16.2.1
+Running "npm run build"
+
+> nl2sql-web@0.1.0 build
+> next build
+
+Γû▓ Next.js 16.2.1 (Turbopack)
+- Environments: .env.local
+
+  Creating an optimized production build ...
+Γ£ô Compiled successfully in 19.6s
+  Running TypeScript ...
+  Finished TypeScript in 13.6s ...
+  Collecting page data using 11 workers ...
+  Generating static pages using 11 workers (0/11) ...
+  Generating static pages using 11 workers (2/11) 
+  Generating static pages using 11 workers (5/11) 
+  Generating static pages using 11 workers (8/11) 
+Γ£ô Generating static pages using 11 workers (11/11) in 928ms
+  Finalizing page optimization ...
+
+Route (app)
+Γöî Γùï /
+Γö£ Γùï /_not-found
+Γö£ ╞Æ /api/data-quality
+Γö£ ╞Æ /api/ingest-pdf
+Γö£ ╞Æ /api/ingest-url
+Γö£ ╞Æ /api/query
+Γö£ ╞Æ /api/research
+Γö£ ╞Æ /api/search-web
+Γöö ╞Æ /api/upload
+
+
+Γùï  (Static)   prerendered as static content
+╞Æ  (Dynamic)  server-rendered on demand
+
+Tracing initial Next.js server files due to missing build trace: 15.339s
+Traced Next.js server files in: 16.663s
+Tracing entries due to missing build traces:
+[
+  "C:/Users/reddy/.gemini/antigravity/scratch/nl2sql-web/.next/server/app/_global-error/page.js",
+  "C:/Users/reddy/.gemini/antigravity/scratch/nl2sql-web/.next/server/app/_not-found/page.js",
+  "C:/Users/reddy/.gemini/antigravity/scratch/nl2sql-web/.next/server/app/api/data-quality/route.js",
+  "C:/Users/reddy/.gemini/antigravity/scratch/nl2sql-web/.next/server/app/api/ingest-pdf/route.js",
+  "C:/Users/reddy/.gemini/antigravity/scratch/nl2sql-web/.next/server/app/api/ingest-url/route.js",
+  "C:/Users/reddy/.gemini/antigravity/scratch/nl2sql-web/.next/server/app/api/query/route.js",
+  "C:/Users/reddy/.gemini/antigravity/scratch/nl2sql-web/.next/server/app/api/research/route.js",
+  "C:/Users/reddy/.gemini/antigravity/scratch/nl2sql-web/.next/server/app/api/search-web/route.js",
+  "C:/Users/reddy/.gemini/antigravity/scratch/nl2sql-web/.next/server/app/api/upload/route.js",
+  "C:/Users/reddy/.gemini/antigravity/scratch/nl2sql-web/.next/server/app/favicon.ico/route.js"
+]: 71.097ms
+Created all serverless functions in: 224.626ms
+Collected static files (public/, static/, .next/static): 5.792ms
+Error: EPERM: operation not 
+permitted, symlink 
+'data-quality.func' -> 'C:\Us
+ers\reddy\.gemini\antigravity
+\scratch\nl2sql-web\.vercel\o
+utput\functions\api\ingest-pd
+f.func'

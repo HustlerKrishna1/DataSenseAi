@@ -1,0 +1,42 @@
+{
+  "name": "nl2sql-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@ai-sdk/groq": "^3.0.31",
+    "@supabase/supabase-js": "^2.100.0",
+    "@types/jszip": "^3.4.0",
+    "@types/pdf-parse": "^1.1.5",
+    "@vercel/analytics": "^2.0.1",
+    "@vercel/speed-insights": "^2.0.0",
+    "ai": "^6.0.138",
+    "cheerio": "^1.2.0",
+    "groq-sdk": "^1.1.1",
+    "html2canvas": "^1.4.1",
+    "jszip": "^3.10.1",
+    "lucide-react": "^1.7.0",
+    "next": "16.2.1",
+    "papaparse": "^5.5.3",
+    "pdf-parse": "^2.4.5",
+    "puppeteer": "^24.40.0",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "recharts": "^3.8.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/papaparse": "^5.5.2",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.1",
+    "typescript": "^5"
+  }
+}
