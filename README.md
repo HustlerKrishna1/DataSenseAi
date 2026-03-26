@@ -30,7 +30,7 @@ DataSenseAI isn't just a basic reader; it's equipped with expert-level AI skills
 
 ## 🚀 Live Demo
 
-**[Check out the live Vercel Deployment!]** *(Since the project is deployed via Vercel, visit your dashboard to grab the exact `.vercel.app` suffix!)*
+**[Check out the live Vercel Deployment!]** (visit https://nl2sql-web-hustlerkrishna18-gmailcoms-projects.vercel.app/)*
 
 ---
 
